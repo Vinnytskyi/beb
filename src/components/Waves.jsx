@@ -1,4 +1,3 @@
-<?php
 import { useRef, useEffect } from "react";
 import './Waves.css';
 
@@ -64,8 +63,8 @@ class Noise {
 const Waves = ({
   lineColor = "black",
   backgroundColor = "transparent",
-  waveSpeedX = 0.0125,
-  waveSpeedY = 0.005,
+  waveSpeedX = 0.0145,
+  waveSpeedY = 0.007,
   waveAmpX = 32,
   waveAmpY = 16,
   xGap = 10,
@@ -261,4 +260,4 @@ const Waves = ({
 }
 
 export default Waves;
-?>
+
